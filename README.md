@@ -53,10 +53,6 @@ This repository is a shortened overview. The companion repository `it-security-f
 
 Copyright 2026 Jacob Welch. Both licenses allow reuse and adaptation with credit, and both cover original content only. Third-party names, identifiers, and quoted material stay under their owners' terms, as [NOTICE.md](NOTICE.md) records.
 
-## AI assistance
-
-Anthropic's Claude researched, drafted, and revised this overview and the companion detailed repository, and checked their cited facts against their sources. Jacob Welch owns the project, decided its scope questions and what to publish, and is the accountable author. This repository summarizes the companion repository `it-security-first-year-plan`, where the scope decisions and the full Sources sections are recorded.
-
 ## Author
 
 **Jacob Welch.** 17+ years in IT and systems administration, including regulated healthcare and financial services. Current role: Associate Director of Security and Compliance. [LinkedIn](https://www.linkedin.com/in/jacobwelch21)
