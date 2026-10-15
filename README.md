@@ -2,7 +2,7 @@
 
 > **Reference work.** Fictional scenario built for a public portfolio. Not deployed in, derived from, or describing any employer environment. Not professional advice.
 
-**AI-assisted.** Anthropic's Claude researched and drafted this repository, and Jacob Welch decided its scope questions and what to publish (see [AI assistance](#ai-assistance)).
+**AI-assisted.** (see [AI assistance](#ai-assistance)).
 
 A short, clickable overview of how an incoming Director of IT and Security would run the first year of internal IT and security at Fabrikam, Inc. (fictional), a workforce software company of about 450 people on Microsoft 365. The role covers the company's own IT and security: employee technology, enterprise systems, the help desk, security, and the SOC 2 program. The product platform Fabrikam sells, and its security, availability, and recovery, are owned by Engineering and are out of scope here. The plan runs in five phases from November 2026 to October 2027, with dated milestones and a one-page monthly scorecard the executive team can hold it to. For the full plan, see [the detailed version](#the-detailed-version).
 
