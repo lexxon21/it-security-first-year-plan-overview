@@ -2,7 +2,7 @@
 
 > **Reference work.** Fictional scenario built for a public portfolio. Not deployed in, derived from, or describing any employer environment. Not professional advice.
 
-This file lists the third-party frameworks, identifier sets, names, and quoted material used in this repository, and the terms each comes with. Each source's terms were checked at the source on 2026-10-14 (table at the end). This repository is a shortened overview of the companion repository `it-security-first-year-plan`, which carries the same data files and queries and the full Sources sections.
+This file lists the third-party frameworks, identifier sets, names, and quoted material used in this repository, and the terms each comes with. Each source's terms were checked at the source on 2026-10-14 (table at the end). This repository is a shortened overview of the companion repository `it-security-first-year-plan`, which carries the full plan, the same queries, and the full Sources sections.
 
 The repository's own licenses cover original content only: the [MIT License](LICENSE) for the KQL queries, and [CC BY 4.0](LICENSE-docs) for the summaries and data. Third-party material stays under its owner's terms. Naming an organization, product, or framework here does not imply affiliation with, sponsorship by, or endorsement by its owner.
 

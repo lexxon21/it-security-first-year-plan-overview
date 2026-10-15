@@ -40,16 +40,9 @@ Three dates set the pace: Microsoft retires its own text and voice sign-in codes
 - **Day 90 (M3):** the executive team approves the 12-month plan, budget, policy set, risk appetite, and the NIST Cybersecurity Framework 2.0 Profiles, and no one relies only on text or voice codes.
 - **Day 120 (D120):** first results measured against the day-30 baselines.
 
-## The team
+## How it is run
 
-| Role | Day 1 | By month 12 |
-|---|---|---|
-| Director of IT and Security | Starts, reporting to the CTO | In post; plan, budget, execution, incident command |
-| IT Operations Manager and three IT generalists | In post | In post; service desk, devices, identity, change, backups |
-| Security Engineer | None | Hired from March 2027; detections, MDR liaison, simulations |
-| GRC Analyst | A finance manager coordinates SOC 2 part time | Hired from March 2027; the SOC 2 program, risk register, vendor reviews, KPIs |
-
-Until the two new roles start, the Director and the Systems Engineer (one of the three IT generalists) carry the build, with Microsoft FastTrack and contracted help from February. Partners: a managed detection and response provider, the SOC 2 audit firm, a penetration testing firm, and an IT hardware partner.
+The Director reports to the CTO and leads the company's existing IT staff: an IT Operations Manager and three IT generalists who run the service desk, devices, identity, change, and backups. Rather than assume new headcount, the Director personally takes on the security and SOC 2 program work, which the company has no dedicated person for today. External services cover what a small team cannot: a managed detection and response provider for round-the-clock monitoring, the SOC 2 audit firm, a penetration testing firm, and an IT hardware partner, with Microsoft FastTrack and contracted specialist help for surge and build work.
 
 ## How progress is shown
 
@@ -69,7 +62,7 @@ Twenty-four proposed measures (key performance indicators), baselined at day 30 
 
 ## Full detail
 
-The companion repository `it-security-first-year-plan` holds the full plan: the executive summary, the first 90 days, the twelve-month roadmap, and the operating model, team, and budget.
+The companion repository `it-security-first-year-plan` holds the full plan: the executive summary, the first 90 days, the twelve-month roadmap, and the operating model and budget.
 
 ## Sources
 

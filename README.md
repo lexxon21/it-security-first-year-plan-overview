@@ -10,11 +10,11 @@ A short, clickable overview of how an incoming Director of IT and Security would
 
 ## Start here
 
-Read [the year at a glance](01-the-year.md) first. It gives the situation, the five phases, the milestones, the team, and what could be built. Then the seven areas, each a one-page summary of what it is, what gets built, and the key decision:
+Read [the year at a glance](01-the-year.md) first. It gives the situation, the five phases, the milestones, how it is run, and what could be built. Then the seven areas, each a one-page summary of what it is, what gets built, and the key decision:
 
 | # | Area | What it covers |
 |---|---|---|
-| 1 | [The year at a glance](01-the-year.md) | Situation, phases, milestones, team, first 90 days and day 120 |
+| 1 | [The year at a glance](01-the-year.md) | Situation, phases, milestones, how it is run, first 90 days and day 120 |
 | 2 | [Identity and access](02-identity.md) | Phishing-resistant sign-in, least privilege, HR-driven joiners and leavers |
 | 3 | [Email authentication and data protection](03-email-and-data.md) | DMARC to enforcement, less oversharing of company data |
 | 4 | [Detection and response](04-detection-and-response.md) | Managed detection, incident response, the business email compromise playbook, hunting queries |
@@ -26,7 +26,7 @@ Read [the year at a glance](01-the-year.md) first. It gives the situation, the f
 ## What is here
 
 - The eight summaries above.
-- Concrete artifacts, the same files as in the detailed version:
+- Concrete artifacts, drawn from the detailed version (the queries are identical; the data files are tuned to this plan's scope):
   - [`data/kpi-catalog.csv`](data/kpi-catalog.csv), the 24 key performance indicators;
   - [`data/risk-register.csv`](data/risk-register.csv), the top IT and security risks;
   - [`data/csf2-soc2-crosswalk.csv`](data/csf2-soc2-crosswalk.csv), NIST CSF 2.0 mapped to SOC 2 and to the plan;

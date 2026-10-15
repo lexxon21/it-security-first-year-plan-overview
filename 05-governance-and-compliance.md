@@ -25,4 +25,4 @@ Companion repository `it-security-first-year-plan`: document 10 (governance and 
 
 ## Sources
 
-Drawn from and sourced in the companion repository `it-security-first-year-plan` (documents 09 to 12, the crosswalk, and ADR-007 carry the primary sources: NIST CSF 2.0, the 2017 Trust Services Criteria cited by identifier, the NIST awareness guidance, and the state privacy laws, each with a check date). The KPI, risk, and crosswalk data files here are the same as in that repository, and their document references point to it.
+Drawn from and sourced in the companion repository `it-security-first-year-plan` (documents 09 to 12, the crosswalk, and ADR-007 carry the primary sources: NIST CSF 2.0, the 2017 Trust Services Criteria cited by identifier, the NIST awareness guidance, and the state privacy laws, each with a check date). The KPI, risk, and crosswalk data files here are drawn from that repository and tuned to this plan's scope, and their document references point to it.
