@@ -36,7 +36,7 @@ The document references inside the data files point to the detailed version's nu
 
 ## The detailed version
 
-This repository is a shortened overview. The companion repository `it-security-first-year-plan` holds the full plan: 18 numbered documents, 8 architecture decision records, a playbook, templates, and the full Sources sections with primary links and check dates. Everything here is drawn from and sourced there.
+This repository is a shortened overview. The companion repository [`it-security-first-year-plan`](https://github.com/lexxon21/it-security-first-year-plan) holds the full plan: 18 numbered documents, 8 architecture decision records, a playbook, templates, and the full Sources sections with primary links and check dates. Everything here is drawn from and sourced there.
 
 ## Limitations
 

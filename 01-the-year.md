@@ -62,7 +62,7 @@ Twenty-four proposed measures (key performance indicators), baselined at day 30 
 
 ## Full detail
 
-The companion repository `it-security-first-year-plan` holds the full plan: the executive summary, the first 90 days, the twelve-month roadmap, and the operating model and budget.
+The companion repository [`it-security-first-year-plan`](https://github.com/lexxon21/it-security-first-year-plan) holds the full plan: the executive summary, the first 90 days, the twelve-month roadmap, and the operating model and budget.
 
 ## Sources
 
