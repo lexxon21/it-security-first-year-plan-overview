@@ -2,17 +2,17 @@
 
 > **Reference work.** Fictional scenario built for a public portfolio. Not deployed in, derived from, or describing any employer environment. Not professional advice.
 
-**What this is.** How Fabrikam (fictional) adopts AI safely: the policy that governs it, the guardrails for what people may do, and the controls that enforce and detect. On day 1 employees already use public AI tools without guidance, leadership wants Microsoft Copilot, and product teams are building AI features, so the plan offers a safe path before closing the unsafe ones. It draws only on public sources.
+**What this is.** How Fabrikam (fictional) adopts AI safely across the business: the policy that governs it, the guardrails for what people may do, and the controls that enforce and detect. On day 1 employees already use public AI tools without guidance and leadership wants Microsoft Copilot, so the plan offers a safe path before closing the unsafe ones. It draws only on public sources. (AI features inside Fabrikam's product are owned by Engineering and are out of scope here.)
 
 ## Three layers
 
-- **Policy: what governs AI.** An AI section in the Acceptable Use Policy for people, and a new AI security standard under the Information Security Policy for AI systems, connections, and product AI features. No new policy number is added; the standard is approved with the policy set at day 90.
-- **Guardrails: what people and teams may do.** An approved tool (work-account Copilot Chat) offered early; data rules tied to the classification set, so customer and employee personal data never goes into an unapproved tool; a named person accountable for any AI output that reaches a customer, and no AI-only decisions about people; an intake review before any AI tool connects to Fabrikam data; a review before any product AI feature launches; and AI agents (software that acts, not just answers) held to intake approval and treated as non-human identities, with a fuller agent standard left to year two.
-- **Controls: what enforces and detects.** A controls register (AIC-01 to AIC-12), each control with an owner, the license it needs, the phase it lands in, and its framework references.
+- **Policy: what governs AI.** An AI section in the Acceptable Use Policy for people, and a new AI security standard under the Information Security Policy for AI systems and connections. No new policy number is added; the standard is approved with the policy set at day 90.
+- **Guardrails: what people and teams may do.** An approved tool (work-account Copilot Chat) offered early; data rules tied to the classification set, so sensitive company data never goes into an unapproved tool; a named person accountable for any AI output that reaches a customer, and no AI-only decisions about people; an intake review before any AI tool connects to Fabrikam data; and AI agents (software that acts, not just answers) held to intake approval and treated as non-human identities, with a fuller agent standard left to year two.
+- **Controls: what enforces and detects.** A controls register, each control with an owner, the license it needs, the phase it lands in, and its framework references.
 
 ## What the controls cover
 
-Unapproved AI use; data leaking through prompts or uploads; Copilot surfacing overshared files (fixed by the oversharing work before any pilot); over-permissioned AI apps and consent phishing; prompt injection hidden in email, files, or web content an assistant reads; AI-enabled fraud such as cloned voices asking for a bank change (answered by the same call-back rule that governs payroll changes); AI vendor and model supply-chain risk; confident but false AI output reaching customers; AI in decisions about people; product AI features (tested before launch, with a kill switch and incident routing); and AI incidents, handled under the existing incident process.
+Unapproved AI use; data leaking through prompts or uploads; Copilot surfacing overshared files (fixed by the oversharing work before any pilot); over-permissioned AI apps and consent phishing; prompt injection hidden in email, files, or web content an assistant reads; AI-enabled fraud such as cloned voices asking for a bank change (answered by the same call-back rule that governs payment changes); AI vendor and model supply-chain risk; confident but false AI output; AI in decisions about people; and AI incidents, handled under the existing incident process.
 
 ## Copilot, done in order
 
@@ -24,7 +24,7 @@ AI is treated as an opportunity to capture safely, built on public guidance (the
 
 ## Full detail
 
-Companion repository `it-security-first-year-plan`: document 16 (AI security and adoption guardrails), which holds the AI security overview, the full controls register, the AI security standard, and the product AI feature review.
+Companion repository `it-security-first-year-plan`: document 16 (AI security and adoption guardrails), which holds the AI security overview, the full controls register, and the AI security standard.
 
 ## Sources
 

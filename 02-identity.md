@@ -2,13 +2,13 @@
 
 > **Reference work.** Fictional scenario built for a public portfolio. Not deployed in, derived from, or describing any employer environment. Not professional advice.
 
-**What this is.** How Fabrikam (fictional) gives, changes, and removes access, and how people prove who they are at sign-in. On day 1 this is a weak area: sign-in by push or text code, standing administrator rights, and joiners and leavers run by email.
+**What this is.** How Fabrikam (fictional) gives, changes, and removes access for its own staff, and how people prove who they are at sign-in. On day 1 this is a weak area: sign-in by push or text code, standing administrator rights, and joiners and leavers run by email.
 
 ## What could be built
 
 - **Phishing-resistant sign-in.** Passkeys and security keys replace text and voice codes, which Microsoft retires for most users on 2027-02-01. Every administrator is covered by December 2026; most employees by July 2027. A phished password or code no longer opens an account.
 - **Least standing privilege.** Administrator roles move to just-in-time activation with approval, so almost no one holds a standing privileged role. Emergency access accounts are set up and monitored.
-- **One identity, driven by HR.** Fabrikam's own human resources product becomes the system of record: it creates, changes, and removes accounts through automated joiner, mover, and leaver workflows, with access packages by role. New hires are productive on day one, and a departure removes access on time.
+- **One identity, driven by HR.** The human resources system of record creates, changes, and removes accounts through automated joiner, mover, and leaver workflows, with access packages by role. New hires are productive on day one, and a departure removes access on time.
 - **Identity proofing before the first credential.** A new hire's identity is checked on a video call against a government-issued photo ID before any credential is issued, to counter fraudulent remote hires.
 - **Access reviews and contractor control.** Periodic reviews of who can reach what, and every contractor and guest with a sponsor and an end date.
 

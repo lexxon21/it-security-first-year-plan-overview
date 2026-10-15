@@ -4,9 +4,9 @@
 
 **AI-assisted.** Anthropic's Claude researched and drafted this repository, and Jacob Welch decided its scope questions and what to publish (see [AI assistance](#ai-assistance)).
 
-A short, clickable overview of how an incoming Director of IT and Security would run the first year at Fabrikam, Inc. (fictional), a workforce software company of about 450 people on Microsoft 365 with no dedicated security staff. It covers IT operations and security together, in five phases from November 2026 to October 2027, with dated milestones and a one-page monthly scorecard the executive team can hold it to. For the full plan, see [the detailed version](#the-detailed-version).
+A short, clickable overview of how an incoming Director of IT and Security would run the first year of internal IT and security at Fabrikam, Inc. (fictional), a workforce software company of about 450 people on Microsoft 365. The role covers the company's own IT and security: employee technology, enterprise systems, the help desk, security, and the SOC 2 program. The product platform Fabrikam sells, and its security, availability, and recovery, are owned by Engineering and are out of scope here. The plan runs in five phases from November 2026 to October 2027, with dated milestones and a one-page monthly scorecard the executive team can hold it to. For the full plan, see [the detailed version](#the-detailed-version).
 
-**The top priorities:** stop payroll and payment fraud, detect and contain incidents at any hour, keep the SOC 2 report without a gap and widen it to an acquired product line, let the human resources record drive who has access, and make data and payroll recoverable.
+**The top priorities:** phishing-resistant identity and protecting the company's own staff and finance from business email compromise, detect and contain incidents at any hour, run the SOC 2 program and keep the report without a gap, let the human resources record drive who has access, make corporate data recoverable, and consolidate the systems left by two acquisitions.
 
 ## Start here
 
@@ -16,9 +16,9 @@ Read [the year at a glance](01-the-year.md) first. It gives the situation, the f
 |---|---|---|
 | 1 | [The year at a glance](01-the-year.md) | Situation, phases, milestones, team, first 90 days and day 120 |
 | 2 | [Identity and access](02-identity.md) | Phishing-resistant sign-in, least privilege, HR-driven joiners and leavers |
-| 3 | [Email authentication and data protection](03-email-and-data.md) | DMARC to enforcement, less oversharing of customer data |
-| 4 | [Detection and response](04-detection-and-response.md) | Managed detection, incident response, the payroll-diversion playbook, hunting queries |
-| 5 | [Governance, risk, and compliance](05-governance-and-compliance.md) | SOC 2, NIST CSF 2.0, the risk register, KPIs, training |
+| 3 | [Email authentication and data protection](03-email-and-data.md) | DMARC to enforcement, less oversharing of company data |
+| 4 | [Detection and response](04-detection-and-response.md) | Managed detection, incident response, the business email compromise playbook, hunting queries |
+| 5 | [Governance, risk, and compliance](05-governance-and-compliance.md) | The SOC 2 program, NIST CSF 2.0, the risk register, KPIs, training |
 | 6 | [IT service, devices, and systems](06-it-service-and-systems.md) | Service desk, device standard, change control, acquisition consolidation |
 | 7 | [Resilience: backup and continuity](07-resilience.md) | Recovery classes, Microsoft 365 backup, restore testing |
 | 8 | [AI security](08-ai-security.md) | AI policy, guardrails, and controls, and safe Copilot adoption |
@@ -28,7 +28,7 @@ Read [the year at a glance](01-the-year.md) first. It gives the situation, the f
 - The eight summaries above.
 - Concrete artifacts, the same files as in the detailed version:
   - [`data/kpi-catalog.csv`](data/kpi-catalog.csv), the 24 key performance indicators;
-  - [`data/risk-register.csv`](data/risk-register.csv), the 15 top risks;
+  - [`data/risk-register.csv`](data/risk-register.csv), the top IT and security risks;
   - [`data/csf2-soc2-crosswalk.csv`](data/csf2-soc2-crosswalk.csv), NIST CSF 2.0 mapped to SOC 2 and to the plan;
   - [`queries/`](queries/), eight Microsoft Defender advanced-hunting queries (untested reference templates).
 
@@ -42,6 +42,7 @@ This repository is a shortened overview. The companion repository `it-security-f
 
 - **Fictional and untested.** This is reference work for a fictional company. Nothing has been deployed, and the numbers in the data files are illustrative.
 - **Dates and targets are proposals,** to be tuned after discovery.
+- **Internal IT and security only.** This plan is the Director's scope: the company's own IT, security, and SOC 2 program. The product platform and its security, availability, and recovery are Engineering's and are described only where the two connect.
 - **A summary, not the source.** Where this overview states an external fact (for example a Microsoft date or a framework version), the companion repository holds the citation with its check date. Time-sensitive facts were checked in October 2026 and can change: Microsoft's packaging, preview features, and dates; the monthly MITRE ATLAS release; and the OWASP list.
 - **The queries are untested templates,** written against Microsoft's published schemas, with no tenant used.
 
@@ -62,7 +63,7 @@ Anthropic's Claude researched, drafted, and revised this overview and the compan
 
 The parts of this plan closest to his own experience are Conditional Access and Privileged Identity Management in Microsoft Entra, SOC 2 Type II audits, customer security reviews, email authentication (SPF, DKIM, and DMARC), disaster recovery testing, and security awareness training. Like the rest of the repository, those parts were written for the fictional scenario from public sources and contain no employer information.
 
-The plan deliberately reaches beyond his hands-on experience into areas such as managed detection and response, identity lifecycle automation with Microsoft Entra ID Governance, NIST CSF 2.0 Organizational Profiles, product platform security shared with Engineering, and payroll-specific obligations; those parts are design and analysis work.
+The plan deliberately reaches beyond his hands-on experience into areas such as managed detection and response, identity lifecycle automation with Microsoft Entra ID Governance, and NIST CSF 2.0 Organizational Profiles; those parts are design and analysis work.
 
 Certifications:
 

@@ -25,7 +25,7 @@ The repository's own licenses cover original content only: the [MIT License](LIC
 
 ## OWASP Top 10 for LLM Applications
 
-- **Used:** the OWASP Top 10 for Large Language Model Applications 2026 (released August 2026) is named in the AI security summary as the basis for testing product AI features before launch. No identifier or entry text is reproduced.
+- **Used:** the OWASP Top 10 for Large Language Model Applications 2026 (released August 2026) is named in the AI security summary as one of the public sources behind the AI controls. No identifier or entry text is reproduced.
 - **Terms:** the 2026 edition's License and Usage page states that it is licensed under Creative Commons CC BY-SA 4.0, and the OWASP GenAI Security Project website states that its content is CC BY-SA 4.0 unless otherwise specified, provided without warranty.
 - **Attribution:** "OWASP Top 10 for LLM Applications 2026" by the OWASP GenAI Security Project, https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/ , licensed under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). This repository's CC BY 4.0 license does not cover it.
 

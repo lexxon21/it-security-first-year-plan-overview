@@ -2,13 +2,13 @@
 
 > **Reference work.** Fictional scenario built for a public portfolio. Not deployed in, derived from, or describing any employer environment. Not professional advice.
 
-**What this is.** How an incoming Director of IT and Security would run the first year at Fabrikam, Inc. (fictional), a workforce software company of about 450 people on Microsoft 365 with no dedicated security staff. The year runs from day 1 (Monday, 2026-11-02) to the first annual review in October 2027. Every date and target is a proposal, tuned after discovery.
+**What this is.** How an incoming Director of IT and Security would run the first year of internal IT and security at Fabrikam, Inc. (fictional), a workforce software company of about 450 people on Microsoft 365. The role covers the company's own IT and security: employee technology, enterprise systems, the help desk, security, and the SOC 2 program. The product platform Fabrikam sells, and its security, availability, and recovery, are owned by Engineering and are out of scope here. The year runs from day 1 (Monday, 2026-11-02) to the first annual review in October 2027. Every date and target is a proposal, tuned after discovery.
 
 ## The situation on day 1
 
-Several thousand employers rely on Fabrikam to pay their workers on time and to protect the Social Security numbers and bank details they hand over. Corporate IT runs Microsoft 365 E3, lightly configured: sign-in mostly by push or text code, standing administrator rights, joiners and leavers handled by email, no after-hours alerting, no backup beyond retention, and no security hire. Fabrikam holds a SOC 2 Type II report on its core product (the attestation customers ask for), with the current review period closing in March 2027.
+Corporate IT runs Microsoft 365 E3, lightly configured: sign-in mostly by push or text code, standing administrator rights, joiners and leavers handled by email, no after-hours alerting, no backup beyond retention, and no dedicated security hire. Two earlier acquisitions left duplicate systems, identities, and SaaS to consolidate. Fabrikam holds a SOC 2 Type II report that its customers rely on, and the current review period closes at the end of March 2027.
 
-Three dates set the pace: Microsoft retires its own text and voice sign-in codes for most users on 2027-02-01; customer-facing changes freeze from mid-December through January; and the SOC 2 review period closes at the end of March 2027.
+Three dates set the pace: Microsoft retires its own text and voice sign-in codes for most users on 2027-02-01; Fabrikam freezes risky changes from mid-December through January, when staffing is light over the holidays; and the SOC 2 review period closes at the end of March 2027.
 
 ## The five phases
 
@@ -29,7 +29,7 @@ Three dates set the pace: Microsoft retires its own text and voice sign-in codes
 | M3 | Day 90 (the executive team meets Thursday 2027-01-28) | Plan, budget, policies, risk appetite, and NIST CSF 2.0 Profiles approved |
 | D120 | Friday 2027-02-26 | First results readout: what has measurably changed, and what is at risk |
 | M4 | End of March 2027 | SOC 2 period closes with no new exceptions caused by the Director's changes; the next period continues without a gap |
-| M5 | July 2027 | The acquired product line assessed, with a dated route into SOC 2 scope |
+| M5 | July 2027 | Acquisition systems consolidated: one identity per person, duplicate tools retired |
 | M6 | July 2027 | Identity lifecycle automated; phishing-resistant sign-in for all admins and most users |
 | M7 | October 2027 | First annual review: results against targets, re-baselined risks, next-year plan |
 
@@ -47,7 +47,7 @@ Three dates set the pace: Microsoft retires its own text and voice sign-in codes
 | Director of IT and Security | Starts, reporting to the CTO | In post; plan, budget, execution, incident command |
 | IT Operations Manager and three IT generalists | In post | In post; service desk, devices, identity, change, backups |
 | Security Engineer | None | Hired from March 2027; detections, MDR liaison, simulations |
-| GRC Analyst | A finance manager coordinates SOC 2 part time | Hired from March 2027; SOC 2, risk register, vendor reviews, KPIs |
+| GRC Analyst | A finance manager coordinates SOC 2 part time | Hired from March 2027; the SOC 2 program, risk register, vendor reviews, KPIs |
 
 Until the two new roles start, the Director and the Systems Engineer (one of the three IT generalists) carry the build, with Microsoft FastTrack and contracted help from February. Partners: a managed detection and response provider, the SOC 2 audit firm, a penetration testing firm, and an IT hardware partner.
 
@@ -58,11 +58,13 @@ Twenty-four proposed measures (key performance indicators), baselined at day 30 
 ## What could be built this year
 
 - Phishing-resistant sign-in for every administrator by December 2026 and most employees by July 2027.
+- Protection for the company's own staff and finance from phishing, business email compromise, and account takeover.
 - Email authentication enforced on every sending domain.
-- A managed detection and response service watching around the clock from the end of April 2027.
+- A managed detection and response service watching the corporate environment around the clock from the end of April 2027.
 - The human resources record driving who gets access, so new hires work on day one and leavers lose access on time.
-- Tested backups and a tested product recovery path.
-- A clean SOC 2 close and a dated route to bring the acquired product line into scope.
+- Tested backups and recovery for corporate Microsoft 365 data.
+- A clean SOC 2 close, with named control owners and continuous evidence in place of hand collection.
+- The systems left by the two acquisitions consolidated: one identity per person, duplicate tools retired.
 - An AI security standard and guardrails so staff use AI on approved tools.
 
 ## Full detail
